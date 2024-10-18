@@ -1,0 +1,64 @@
+{
+    "uz": {
+        "hello_msg": "Noqonuniy harakatlar va hodimlarni huquqlarini buzilishiga uchrasangiz shu bot orqali ariza qoldiring Hamma shikoyatlar va takliflar to'liq maxfiy bo'lishini taminlaymiz\nTelefon 10;00 - 03:00 +998931230031\n\nЕсли вы столкнулись с неправомерными действиями или нарушением прав сотрудников, пожалуйста, оставьте жалобу в этот бот доверия. Мы обеспечим полную конфиденциальность всех жалоб и предложений.\nТелефон: 10:00 - 03:00 +998931230031",
+        "ask_name": "Iltimos ism-sharifingizni yozsangiz",
+        "ask_phone_number": "Iltimos telefon raqamingizni kiriting (+998** *** ** **).",
+        "wrong_phone_number": "Iltimos telefon raqamingizni quyidagi formatda kiriting (+998** *** ** **)\u274c",
+        "ask_branch": "Qaysi filialda ishlaysiz? \u2b07\ufe0f",
+        "ask_complaint": "Shikoyatingizni yozib qoldirishingiz mumkin. (Rasm, video, audio va document)",
+        "complaint_received": "Shikoyatingiz qabul qilindi. \u2705",
+        "change_language": "Qaysi tilni tanlaysiz?",
+        "lan_changed_success": "Til o'zgartirildi. \u2705",
+        "ask_to_start": "/start ni qaytadan bosin.",
+        "ask_another_complaint": "Yangi shikoyat yuborish. \ud83d\udd04",
+        "complaint_text":"id123\nIshchi:  worker123\nTelefon-raqam:  tel_num123\nFillial:  branch123\n\ncomplaint123",
+
+
+        "admin_verified": "Parol tasdiqlandi \u2705. Quyidagi buyruqlarni tanlashingiz mumkin. \u2b07\ufe0f",
+        "add_admin_btn": {"Admin qo'shish": "add_admin", "Fillial qo'shish": "add_branch", "Hamma shikoyatlarni olish": "get_database"},
+        "ask_admin_id": "Admin telegram idsini jo'nating",
+        "admin_id_wrong": "Admin idsi faqat raqamlardan tashkil topishi kerak. \u274c",
+        "admin_added": "Admin qo'shildi. \u2705",
+        "reply_worker": "Javob qaytarish",
+        "ask_reply_text": "Javob yozishingiz mumkin \u2b07\ufe0f",
+        "ask_new_branch_name": "Yangi fillial nomini yozing.",
+        "ask_time_period": "Necha oy avvalgi malumotlarni olishni hohlaysiz.\nAgar malum bir muddatdan keyingi malumotlarni olishni hohlsagiz, sanasizni yozing(yil-oy-kun > 2022-03-15)",
+        
+
+        "cancel": ["Bekor qilish. \u274c"],
+        "canceled": "Bekor qilindi. \u2705"
+    },
+    "ru": {
+        "hello_msg": "Noqonuniy harakatlar va hodimlarni huquqlarini buzilishiga uchrasangiz shu bot orqali ariza qoldiring Hamma shikoyatlar va takliflar to'liq maxfiy bo'lishini taminlaymiz\nTelefon 10;00 - 03:00 +998931230031\n\nЕсли вы столкнулись с неправомерными действиями или нарушением прав сотрудников, пожалуйста, оставьте жалобу в этот бот доверия. Мы обеспечим полную конфиденциальность всех жалоб и предложений.\nТелефон: 10:00 - 03:00 +998931230031",
+        "ask_name": "Пожалуйста введите свое полное имя",
+        "ask_phone_number": "Пожалуйста, введите Ваш номер телефона (+998** *** ** **)",
+        "wrong_phone_number": "Пожалуйста, введите свой номер телефона в этом формате (+998** *** ** **)\u274c",
+        "ask_branch": "В каком филиале вы работаете? \u2b07\ufe0f",
+        "ask_complaint":"Вы можете отправить жалобу. (Фото, видео, аудио и документ)",
+        "complaint_received": "Ваша жалоба получена \u2705",
+        "change_language": "Какой язык вы выбираете?",
+        "lan_changed_success": "Язык успешно изменен. \u2705",
+        "ask_to_start": "Нажмите /start еще раз.",
+        "ask_another_complaint": "Отправить еще одну жалобу. \ud83d\udd04",
+        "complaint_text": "id123\nСотрудник:  worker123\nНомер телефона:  tel_num123\nФилиал:  branch123\n\ncomplaint123",
+
+
+        "admin_verified": "Пароль принят \u2705. Вы можете выбрать следующие команды. \u2b07\ufe0f",
+        "add_admin_btn": {"Добавить администратора": "add_admin", "Добавить филиал": "add_branch", "Получить все жалобы": "get_database"},
+        "ask_admin_id": "Отправьте идентификатор телеграммы администратора",
+        "admin_id_wrong": "Идентификатор администратора должен содержать только цифры. \u274c",
+        "admin_added": "Админ добавлен. \u2705",
+        "reply_worker": "Отвечать",
+        "ask_reply_text": "Написать ответ \u2b07\ufe0f",
+        "ask_new_branch_name": "Напишите название новой филиал",
+        "ask_time_period": "Сколько месяцев данных вы хотите получить. Если вам нужны данные после точного времени, напишите его как (год-месяц-день > 2022-03-15)",
+        
+
+        "cancel": ["Отмена. \u274c"],
+        "canceled": "Отменено. \u2705"
+    },
+    "languages": {
+        "Uzbek": "change_lan_uz",
+        "Русский": "change_lan_ru"
+    }
+}
